@@ -28,12 +28,16 @@
   bottom: 0px;
 }
 
+.mgtb{
+  marg
+}
+
 /* Desktop View */
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+@media only screen and (min-width: 992px) {
   .nav-link {
     text-transform: uppercase;
-    margin-end: 20px;
+    margin-right: 20px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
   }
 }
