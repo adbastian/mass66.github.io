@@ -13,7 +13,7 @@
   z-index: 1;
 }
 .banner-image {
-  background-image: url("img/p1.jpg");
+  background-image: url("images/p1.jpg");
   background-size: cover;
   position: relative;
 }
@@ -35,5 +35,11 @@
     text-transform: uppercase;
     margin-end: 20px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .hmsi-logo-center {
+    text-align: center;
   }
 }
