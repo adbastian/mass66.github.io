@@ -1,2 +1,2 @@
-# hmsi_wp
+# HMSI
 hmsi web profile 
