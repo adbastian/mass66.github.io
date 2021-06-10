@@ -20,6 +20,10 @@
   bottom: 0px;
 }
 
+.hr-kabinet {
+  width: 450px;
+}
+
 /* Desktop View */
 /* // Large devices (desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -27,6 +31,12 @@
     text-transform: uppercase;
     margin-right: 20px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+}
+
+@media only screen and (max-width: 467px) {
+  .hr-kabinet {
+    width: 250px;
   }
 }
 
