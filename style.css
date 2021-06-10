@@ -23,6 +23,14 @@
   width: 450px;
 }
 
+.left-footer {
+  text-align: left;
+}
+
+.right-footer {
+  text-align: right;
+}
+
 /* Desktop View */
 /* // Large devices (desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -41,6 +49,15 @@
 
 @media only screen and (max-width: 767px) {
   .hmsi-logo-center {
+    text-align: center;
+  }
+
+  .logo-hmsi-text {
+    width: 90%;
+  }
+
+  .left-footer,
+  .right-footer {
     text-align: center;
   }
 }
