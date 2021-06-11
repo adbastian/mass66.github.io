@@ -17,6 +17,20 @@ li {
   font-size: 18px;
 }
 
+.logo-hmsi-text {
+  z-index: 1;
+  position: relative;
+}
+
+.middle-spot {
+  width: 75%;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
 .padding-overlay {
   padding-top: 80px;
 }
@@ -46,8 +60,17 @@ li {
   width: 450px;
 }
 
-.btn-warning {
+.btn-warning,
+.bg-warning {
   background: #ef9c00 !important;
+}
+
+.dropdown-item:active {
+  background: #ef9c00 !important;
+}
+
+.text-warning {
+  color: #ef9c00 !important;
 }
 
 .left-footer {
@@ -71,6 +94,10 @@ li {
 @media only screen and (max-width: 467px) {
   .hr-kabinet {
     width: 250px;
+  }
+
+  .banner-image {
+    height: 500px !important;
   }
 }
 
