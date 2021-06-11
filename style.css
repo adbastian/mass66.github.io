@@ -23,6 +23,10 @@
   width: 450px;
 }
 
+.btn-warning {
+  background: #ef9c00 !important;
+}
+
 .left-footer {
   text-align: left;
 }
@@ -57,7 +61,18 @@
   }
 
   .left-footer,
-  .right-footer {
+  .right-footer,
+  .footer-container {
     text-align: center;
+  }
+
+  .hr-center-responsive {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 989px) {
+  .logo-footer {
+    width: 225px;
   }
 }
