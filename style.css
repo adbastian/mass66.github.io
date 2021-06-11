@@ -1,3 +1,26 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+}
+
+p,
+li {
+  font-size: 18px;
+}
+
+.padding-overlay {
+  padding-top: 80px;
+}
+
 .banner-image {
   background-image: url("images/banner1.jpg");
   background-repeat: no-repeat;
@@ -74,5 +97,11 @@
 @media only screen and (max-width: 989px) {
   .logo-footer {
     width: 225px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .logo-hmsi-content {
+    width: 250px;
   }
 }
