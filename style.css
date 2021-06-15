@@ -17,6 +17,11 @@ li {
   font-size: 18px;
 }
 
+b,
+strong {
+  color: #ef9c00;
+}
+
 .logo-hmsi-text {
   width: 50%;
   z-index: 2;
