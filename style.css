@@ -2,6 +2,10 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 h1,
 h2,
 h3,
@@ -20,6 +24,18 @@ li {
 b,
 strong {
   color: #ef9c00;
+}
+
+#to_top {
+  display: none;
+  right: 25px;
+  bottom: 25px;
+  position: fixed;
+}
+
+.name-tag {
+  width: 250px;
+  height: auto;
 }
 
 .logo-hmsi-text {

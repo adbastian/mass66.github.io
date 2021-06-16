@@ -1,2 +1,3 @@
 # HMSI
-hmsi web profile 
+
+Himpunan Mahasiswa Sistem Informasi Universitas Serang Raya
