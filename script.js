@@ -1,14 +1,4 @@
-// const nav = document.querySelector("nav")
-
-// window.addEventListener("scroll", function () {
-//     if (window.pageYOffset > 130) {
-//         nav.classList.add("bg-semi-transparent", "shadow")
-//     } else {
-//         nav.classList.remove("bg-semi-transparent", "shadow")
-//     }
-// })
-
-const to_top_btn = document.getElementById('to_top')
+const to_top_btn = document.getElementById('to-top')
 
 window.onscroll = () => {
     scroll()

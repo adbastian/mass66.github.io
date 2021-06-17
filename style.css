@@ -26,7 +26,12 @@ strong {
   color: #ef9c00;
 }
 
-#to_top {
+.navbar-toggler {
+  border: 2.5px solid rgba(33, 37, 41, 0.5);
+  border-radius: 0;
+}
+
+#to-top {
   display: none;
   right: 25px;
   bottom: 25px;
@@ -115,13 +120,16 @@ strong {
   text-align: right;
 }
 
+.active {
+  color: #ef9c00 !important;
+}
+
 /* Desktop View */
 /* // Large devices (desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .nav-link {
     text-transform: uppercase;
     margin-right: 20px;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
   }
 }
 
