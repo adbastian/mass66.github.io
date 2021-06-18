@@ -38,6 +38,30 @@ strong {
   position: fixed;
 }
 
+#struktur-banner {
+  position: relative;
+}
+
+#struktur-banner::before {
+  content: "";
+  left: 0;
+  top: -10px;
+  width: 100%;
+  height: 5px;
+  position: absolute;
+  background: #ef9c00;
+}
+
+#struktur-banner::after {
+  content: "";
+  left: 0;
+  bottom: -10px;
+  width: 100%;
+  height: 5px;
+  position: absolute;
+  background: #ef9c00;
+}
+
 .name-tag {
   width: 250px;
   height: auto;
